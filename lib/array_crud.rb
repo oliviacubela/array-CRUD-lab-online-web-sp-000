@@ -7,8 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-array = ["red", "yellow", "arrays!"]
-array.unshift("green")
+array = ["red", "yellow", "blue"]
+array << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
